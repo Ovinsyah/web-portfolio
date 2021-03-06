@@ -89,6 +89,7 @@ footer{
   border: 1px solid #F3F3F3;
   padding: 25px 25px 30px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
@@ -96,6 +97,7 @@ footer{
   margin: 0px 35px;
   cursor: pointer;
   transition: .3s;
+
 }
 .item-step:hover{
   transform: scale(1.05);
@@ -114,6 +116,11 @@ footer{
 .img-step{
   width: 54px;
   height: 54px;
+}
+.item-step-title{
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 500;
 }
 .home-section-third{
   background-color: #F5F5F5;
@@ -245,6 +252,10 @@ footer{
     width: 100px;
     margin: 0px 10px;
     padding: 15px;
+  }
+  .item-step-title{
+    font-size: 12px;
+    margin-top: 8px;
   }
   .bg-img-step{
     width: 60px;

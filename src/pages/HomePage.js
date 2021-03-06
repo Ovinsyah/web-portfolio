@@ -36,6 +36,7 @@ const HomePage = () => {
                 <div className="bg-img-step">
                   <img className="img-step" src={step.image} alt={step.title} />
                 </div>
+                <div className="item-step-title">{step.title}</div>
               </div>
             ))
           }
